@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Charts</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 id="siteTitle">Joshua Franco</h1>
+      <p id="siteDescription" class="description">
+        I'm a computer science student at the University of Florida working with sports data in R. I produce charts/graphs publicly on NFL topics and internally for the Florida Gators Men's Basketball team. 
+      </p>
+      <div class="toolbar">
+        <button id="viewSlideshowBtn" class="btn" aria-pressed="true">Slideshow</button>
+        <button id="viewGridBtn" class="btn btn-primary" aria-pressed="false">View all</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Slideshow -->
+    <section id="slideshow" class="slideshow" aria-label="Image slideshow">
+      <div class="stage">
+        <button id="prevBtn" class="nav-btn" aria-label="Previous image">←</button>
+
+        <figure class="figure">
+          <div class="img-wrap">
+            <img id="mainImg" alt="" />
+          </div>
+          <figcaption id="caption" class="caption"></figcaption>
+        </figure>
+
+        <button id="nextBtn" class="nav-btn" aria-label="Next image">→</button>
+      </div>
+
+      <div class="meta">
+        <div id="counter" class="counter"></div>
+        <div class="hint">
+          Tip: use ← / → keys, or swipe on trackpads/mobile.
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid -->
+    <section id="grid" class="grid hidden" aria-label="All images">
+      <div id="thumbs" class="thumbs"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© 2026 Joshua Franco • Most can be found on <a href="https://x.com/@JoshiosTweets">Twitter</a> • Send me an <a href="mailto:joshuafranco@ufl.edu">email</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
