@@ -10,5 +10,24 @@
   { "file": "chart10.jpg", "caption": "Money Down Receivers" },
   { "file": "chart11.jpg", "caption": "Three and Out Performances" },
   { "file": "chart12.jpg", "caption": "EPA based on Quarter" },
-  { "file": "chart13.jpg", "caption": "Stafford Playoff Performance" }
+  { "file": "chart13.jpg", "caption": "Matthew Stafford Hand" },
+  { "file": "chart14.png", "caption": "Rams Record" },
+
+  { "file": "chart15.png", "caption": "Winning Teams Record" },
+  { "file": "chart16.png", "caption": "Skill Player Run Percentage" },
+  { "file": "chart17.png", "caption": "Weighted Draft Round" },
+  { "file": "chart18.png", "caption": "First Round Pick Utilitization" },
+  { "file": "chart19.png", "caption": "Quarterback-Receiver Connection" },
+  {
+    "file": "chart20.png",
+    "caption": "Defensive Performance vs. Playoff Teams"
+  },
+  { "file": "chart21.png", "caption": "Red Zone Performance" },
+  { "file": "chart22.png", "caption": "One-Score Games" },
+  { "file": "chart23.png", "caption": "Safety Position" },
+  { "file": "chart24.png", "caption": "Player Route Concepts" },
+  { "file": "chart25.png", "caption": "Stop Rate" },
+  { "file": "chart26.png", "caption": "Success After Negative" },
+  { "file": "chart27.png", "caption": "Negative Play Percent" },
+  { "file": "chart28.png", "caption": "Favorite Target" }
 ]
